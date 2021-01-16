@@ -1,0 +1,18 @@
+{
+    "name": "ovicko/opencart_module_template",
+    "description": "Generate OpenCart modules with losts of ease!",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AMWOLLO VICTOR",
+            "email": "amwollo@yahoo.com"
+        }
+    ],
+    "require": {},
+        "autoload": {
+        "psr-4": {
+            "ovicko\\opencart\\": "src\\lib"
+        }
+    }
+}
