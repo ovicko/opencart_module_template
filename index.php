@@ -1,9 +1,12 @@
 <?php
-
+require 'vendor/autoload.php';
 if ( isset($_POST['module_name'])) {
 
     $module_name = $_POST['module_name'];
     echo $module_name;
+
+    $test = new \ovicko\opencart\Admin($module_name);
+    $test->model();
 }
 ?>
 

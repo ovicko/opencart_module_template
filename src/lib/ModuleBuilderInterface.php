@@ -1,4 +1,6 @@
 <?php
+namespace ovicko\opencart;
+
 interface ModuleBuilderInterface {
 
     public function name($name);

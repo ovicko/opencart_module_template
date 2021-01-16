@@ -1,6 +1,8 @@
 <?php
-require_once "AbstractModule.php";
-require_once "ModuleModel.php";
+namespace ovicko\opencart;
+
+use ovicko\opencart\ModuleModel;
+
 class Admin extends AbstractModule
 {
     private $name;
@@ -45,6 +47,3 @@ class Admin extends AbstractModule
     }
     
 }
-
-$test = new Admin('test1');
-$test->model();

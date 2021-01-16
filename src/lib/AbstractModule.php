@@ -1,4 +1,5 @@
 <?php
+namespace ovicko\opencart;
 
 abstract class AbstractModule
 {

@@ -1,5 +1,8 @@
 <?php
-require_once "ModuleBuilderInterface.php";
+namespace ovicko\opencart;
+
+use ovicko\opencart\ModuleBuilderInterface;
+
 class ModuleModel implements ModuleBuilderInterface
 {
 
